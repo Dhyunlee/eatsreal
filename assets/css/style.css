@@ -114,12 +114,12 @@ header .sec-banner {
 
 .swiper-container {
     width: 100%;
-    height: 463px;
+    height: 400px;
 }
 
-.slide {
-    width: 100%;
-    height: 400px;
+
+.swiper-slide {
+  /* margin-right: 0 !important; */
 }
 
 .carousel-wrap .slide01 {

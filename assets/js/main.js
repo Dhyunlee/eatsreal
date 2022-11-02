@@ -1,5 +1,8 @@
+import { recom_prod } from "../data/recom_prod.js";
+console.log(recom_prod)
+
 // use swiper
-const swiper = new Swiper(".swiper-container", {
+new Swiper(".swiper-container", {
   speed: 400,
   spaceBetween: 100,
   autoplay: {
@@ -13,6 +16,10 @@ const swiper = new Swiper(".swiper-container", {
     nextEl: '.swiper-button-next',
     prevEl: '.swiper-button-prev',
   },
+  spaceBetween: 0, // 이미지 사이  공백 없애기(= mergin 없앰) 
+  // 무한 슬라이드
+  loop: true,
+  loopAdditionalSlides: 1,
 });
 
 
