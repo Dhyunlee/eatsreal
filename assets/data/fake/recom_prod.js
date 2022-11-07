@@ -572,7 +572,6 @@ export const recom_prod = [
     ],
   },
   {
-    // 여기부터 정리
     id: 4,
     title: "프리미엄 샐러드",
     data: [
@@ -605,7 +604,7 @@ export const recom_prod = [
         name: "샐러드 10종 전메뉴 맛보기",
         price: "56,900원",
         s_price: "68,900원",
-        image_url,
+        image_url: "",
         image_alt: "기획전 이미지",
         sub_image_url:
           "https://cdn.imweb.me/thumbnail/20191023/f48d7dbf289d5.jpg",
@@ -629,8 +628,9 @@ export const recom_prod = [
         name: "리코타베리 샐러드",
         price: "5,900원",
         s_price: "6,900원",
-        image_url,
+        image_url: "https://cdn.imweb.me/thumbnail/20190521/5ce3f3ef1c5b8.jpg",
         image_alt: "기획전 이미지",
+        sub_image_url: "",
         tag: [
           {
             sale: "SALE",
@@ -651,8 +651,9 @@ export const recom_prod = [
         name: "단호박 씨앗 샐러드",
         price: "5,700원",
         s_price: "6,700원",
-        image_url,
+        image_url: "https://cdn.imweb.me/thumbnail/20190521/5ce3f3ef60345.jpg",
         image_alt: "기획전 이미지",
+        sub_image_url: "",
         tag: [
           {
             sale: "SALE",
@@ -673,8 +674,9 @@ export const recom_prod = [
         name: "케이준치킨 샐러드",
         price: "5,900원",
         s_price: "6,900원",
-        image_url,
+        image_url: "https://cdn.imweb.me/thumbnail/20190521/5ce3f3efa2cad.jpg",
         image_alt: "기획전 이미지",
+        sub_image_url: "",
         tag: [
           {
             sale: "SALE",
@@ -695,8 +697,9 @@ export const recom_prod = [
         name: "크래미 메추리알 샐러드",
         price: "5,900원",
         s_price: "6,900원",
-        image_url,
+        image_url: "https://cdn.imweb.me/thumbnail/20190521/5ce3f3f0297e0.jpg",
         image_alt: "기획전 이미지",
+        sub_image_url: "",
         tag: [
           {
             sale: "SALE",
@@ -717,8 +720,9 @@ export const recom_prod = [
         name: "바질파스타 샐러드",
         price: "6,000원",
         s_price: "7,000원",
-        image_url,
+        image_url: "https://cdn.imweb.me/thumbnail/20190521/5ce3f3f0297e0.jpg",
         image_alt: "기획전 이미지",
+        sub_image_url: "",
         tag: [
           {
             sale: "SALE",
@@ -739,8 +743,9 @@ export const recom_prod = [
         name: "갈릭버터 쉬림프 샐러드",
         price: "6,400원",
         s_price: "7,400원",
-        image_url,
+        image_url: "https://cdn.imweb.me/thumbnail/20190521/5ce3f3f06a2b1.jpg",
         image_alt: "기획전 이미지",
+        sub_image_url: "",
         tag: [
           {
             sale: "SALE",
@@ -759,27 +764,475 @@ export const recom_prod = [
     ],
   },
   {
-    id: 6,
+    id: 5,
     title: "미주라",
-    data: [],
+    data: [
+      {
+        title: "미주라 토스트 통밀도너츠 외9종 특가",
+        price: "3,900원",
+        s_price: "5,500원",
+        image_url: "https://cdn.imweb.me/thumbnail/20200313/822175ba68a4d.jpg",
+        image_alt: "기획전 이미지",
+        sub_image_url:
+          "https://cdn.imweb.me/thumbnail/20200309/cee0c244b850f.jpg",
+        tag: [
+          {
+            sale: "SALE",
+          },
+          {
+            best: "BEST",
+          },
+          {
+            hot: "HOT",
+          },
+          {
+            md: "",
+          },
+        ],
+      },
+      {
+        title: "미주라 통밀파스타 3종 특가",
+        price: "3,850원",
+        s_price: "5,000원",
+        image_url: "https://cdn.imweb.me/thumbnail/20200313/d0969dd8375f8.jpg",
+        image_alt: "기획전 이미지",
+        sub_image_url:
+          "https://cdn.imweb.me/thumbnail/20200309/1f43ffe340ba2.jpg",
+        tag: [
+          {
+            sale: "SALE",
+          },
+          {
+            best: "",
+          },
+          {
+            hot: "",
+          },
+          {
+            md: "MD",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    id: 6,
+    title: "달콜함 말랭이",
+    data: [
+      {
+        title: "잭푸르트 스낵 10봉",
+        price: "9,900원",
+        s_price: "12,900원",
+        image_url: "https://cdn.imweb.me/thumbnail/20201125/a9ea6c58eb51d.jpg",
+        image_alt: "기획전 이미지",
+        sub_image_url:
+          "https://cdn.imweb.me/thumbnail/20201125/755bc7e4c4c16.jpg",
+        tag: [
+          {
+            sale: "SALE",
+          },
+          {
+            best: "",
+          },
+          {
+            hot: "",
+          },
+          {
+            md: "",
+          },
+        ],
+      },
+      {
+        title: "냉동고구마 1kg",
+        price: "13,900원",
+        s_price: "15,900원",
+        image_url: "https://cdn.imweb.me/thumbnail/20201125/ea8c7cc7aea13.jpg",
+        image_alt: "기획전 이미지",
+        sub_image_url:
+          "https://cdn.imweb.me/thumbnail/20201125/b210c7231582b.jpg",
+        tag: [
+          {
+            sale: "SALE",
+          },
+          {
+            best: "",
+          },
+          {
+            hot: "",
+          },
+          {
+            md: "",
+          },
+        ],
+      },
+      {
+        title: "꿀고구마말랭이 10봉",
+        price: "14,000원",
+        s_price: "16,000원",
+        image_url: "https://cdn.imweb.me/thumbnail/20201125/7f99bed597b04.jpg",
+        image_alt: "기획전 이미지",
+        sub_image_url:
+          "https://cdn.imweb.me/thumbnail/20201125/5da10b46f9f09.jpg",
+        tag: [
+          {
+            sale: "SALE",
+          },
+          {
+            best: "",
+          },
+          {
+            hot: "",
+          },
+          {
+            md: "",
+          },
+        ],
+      },
+      {
+        title: "군고구마말랭이 10봉",
+        price: "14,000원",
+        s_price: "16,000원",
+        image_url: "https://cdn.imweb.me/thumbnail/20201125/8ec8402b0863c.jpg",
+        image_alt: "기획전 이미지",
+        sub_image_url:
+          "https://cdn.imweb.me/thumbnail/20201125/3b7e4c0323ae4.jpg",
+        tag: [
+          {
+            sale: "SALE",
+          },
+          {
+            best: "",
+          },
+          {
+            hot: "",
+          },
+          {
+            md: "",
+          },
+        ],
+      },
+      {
+        title: "한입 쏙 고구마 고백 (10팩~)",
+        price: "24,900원",
+        s_price: "28,000원",
+        image_url: "https://cdn.imweb.me/thumbnail/20200213/a5f4bc2273ba4.jpg",
+        image_alt: "기획전 이미지",
+        sub_image_url:
+          "https://cdn.imweb.me/thumbnail/20200213/77f771d213dcb.jpg",
+        tag: [
+          {
+            sale: "SALE",
+          },
+          {
+            best: "",
+          },
+          {
+            hot: "",
+          },
+          {
+            md: "MD",
+          },
+        ],
+      },
+      {
+        title: "청도 감 말랭이 5팩",
+        price: "12,900원",
+        s_price: "15,000원",
+        image_url: "https://cdn.imweb.me/thumbnail/20191107/e8310b4a45dbf.jpg",
+        image_alt: "기획전 이미지",
+        tag: [
+          {
+            sale: "SALE",
+          },
+          {
+            best: "",
+          },
+          {
+            hot: "",
+          },
+          {
+            md: "",
+          },
+        ],
+      },
+      {
+        title: "꿀고구마 말랭이 5팩",
+        price: "12,500원",
+        s_price: "14,000원",
+        image_url: "https://cdn.imweb.me/thumbnail/20191107/6fd138956fb42.jpg",
+        image_alt: "기획전 이미지",
+        tag: [
+          {
+            sale: "SALE",
+          },
+          {
+            best: "",
+          },
+          {
+            hot: "",
+          },
+          {
+            md: "",
+          },
+        ],
+      },
+      {
+        title: "리얼 아이스 구운 감자 (10팩~)",
+        price: "25,900원",
+        s_price: "28,000원",
+        image_url: "https://cdn.imweb.me/thumbnail/20191107/e3c5e69c3f6b8.jpg",
+        image_alt: "기획전 이미지",
+        sub_image_url:
+          "https://cdn.imweb.me/thumbnail/20191106/00e7cf3f1a1da.jpg",
+        tag: [
+          {
+            sale: "SALE",
+          },
+          {
+            best: "",
+          },
+          {
+            hot: "",
+          },
+          {
+            md: "MD",
+          },
+        ],
+      },
+    ],
   },
   {
     id: 7,
-    title: "달콜함 말랭이",
-    data: [],
+    title: "닭가슴살",
+    data: [
+      {
+        title: "굳닭 닭가슴살볼 3종",
+        price: "16,300원",
+        s_price: "20,000원",
+        image_url: "https://cdn.imweb.me/thumbnail/20200314/4110ddaecbcd0.jpg",
+        image_alt: "기획전 이미지",
+        sub_image_url: "",
+        tag: [
+          {
+            sale: "SALE",
+          },
+          {
+            best: "",
+          },
+          {
+            hot: "",
+          },
+          {
+            md: "",
+          },
+        ],
+      },
+      {
+        title: "굳닭 닭가슴살 스테이크 3종",
+        price: "17,900원",
+        s_price: "20,000원",
+        image_url: "https://cdn.imweb.me/thumbnail/20200314/7c7bc2ca238b6.jpg",
+        image_alt: "기획전 이미지",
+        sub_image_url:
+          "https://cdn.imweb.me/thumbnail/20200324/cd288ecdc7a87.jpg",
+        tag: [
+          {
+            sale: "SALE",
+          },
+          {
+            best: "",
+          },
+          {
+            hot: "",
+          },
+          {
+            md: "",
+          },
+        ],
+      },
+      {
+        title: "굳닭 닭가슴살 소시지바 5종",
+        price: "11,900원",
+        s_price: "15,500원",
+        image_url: "https://cdn.imweb.me/thumbnail/20200314/461af43dcf678.jpg",
+        image_alt: "기획전 이미지",
+        sub_image_url: "",
+        tag: [
+          {
+            sale: "SALE",
+          },
+          {
+            best: "",
+          },
+          {
+            hot: "",
+          },
+          {
+            md: "",
+          },
+        ],
+      },
+      {
+        title: "굳닭 닭가슴살 소시지 8종 모음",
+        price: "14,800원",
+        s_price: "18,000원",
+        image_url: "https://cdn.imweb.me/thumbnail/20200314/9e12b69e1bc67.jpg",
+        image_alt: "기획전 이미지",
+        sub_image_url: "",
+        tag: [
+          {
+            sale: "SALE",
+          },
+          {
+            best: "",
+          },
+          {
+            hot: "",
+          },
+          {
+            md: "MD",
+          },
+        ],
+      },
+      {
+        title: "굳닭 닭가슴살 3종 (스팀,훈제)",
+        price: "16,300원",
+        s_price: "20,000원",
+        image_url: "https://cdn.imweb.me/thumbnail/20200314/614d595578b04.jpg",
+        image_alt: "기획전 이미지",
+        sub_image_url: "",
+        tag: [
+          {
+            sale: "SALE",
+          },
+          {
+            best: "",
+          },
+          {
+            hot: "",
+          },
+          {
+            md: "",
+          },
+        ],
+      },
+      {
+        title: "굳닭 닭가슴살 곤약순대 200g",
+        price: "11,900원",
+        s_price: "15,900원",
+        image_url: "https://cdn.imweb.me/thumbnail/20200317/e82c789e95bbc.jpg",
+        image_alt: "기획전 이미지",
+        sub_image_url: "",
+        tag: [
+          {
+            sale: "SALE",
+          },
+          {
+            best: "",
+          },
+          {
+            hot: "",
+          },
+          {
+            md: "",
+          },
+        ],
+      },
+      {
+        title: "굳닭 촉촉수비드슬라이스 2종",
+        price: "19,500원",
+        s_price: "23,500원",
+        image_url: "https://cdn.imweb.me/thumbnail/20200314/93ec177766eca.jpg",
+        image_alt: "기획전 이미지",
+        tag: [
+          {
+            sale: "SALE",
+          },
+          {
+            best: "",
+          },
+          {
+            hot: "",
+          },
+          {
+            md: "",
+          },
+        ],
+      },
+    ],
   },
   {
     id: 8,
-    title: "닭가슴살",
-    data: [],
+    title: "구운란, 반숙란",
+    data: [
+      {
+        title: "굳닭이 낳은 정직한 구운란 1판(30구)",
+        price: "13,500원",
+        s_price: "15,500원",
+        image_url: "https://cdn.imweb.me/thumbnail/20200423/824b1946de8d3.jpg",
+        sub_image_url: "",
+        tag: [
+          {
+            sale: "SALE",
+          },
+          {
+            best: "",
+          },
+          {
+            hot: "",
+          },
+          {
+            md: "",
+          },
+        ],
+      },
+      {
+        title: "굳닭 촉촉한 반숙란",
+        price: "11,900원",
+        s_price: "14,000원",
+        image_url: "https://cdn.imweb.me/thumbnail/20200423/ca8e7578dfd2c.jpg",
+        sub_image_url: "",
+        tag: [
+          {
+            sale: "SALE",
+          },
+          {
+            best: "",
+          },
+          {
+            hot: "",
+          },
+          {
+            md: "",
+          },
+        ],
+      },
+      {
+        title: "굳닭 한입에 쏙 메추리야",
+        price: "9,900원",
+        s_price: "12,500원",
+        image_url: "https://cdn.imweb.me/thumbnail/20200316/eb3e494980f45.jpg",
+        sub_image_url: "",
+        tag: [
+          {
+            sale: "SALE",
+          },
+          {
+            best: "",
+          },
+          {
+            hot: "",
+          },
+          {
+            md: "",
+          },
+        ],
+      },
+    ],
   },
   {
     id: 9,
-    title: "구운란, 반숙란",
-    data: [],
-  },
-  {
-    id: 10,
-    title: "ad_banner",
+    title: "Delivery Service",
+    image_url: "https://cdn.imweb.me/thumbnail/20190630/3cd1623fb521c.jpg",
   },
 ];

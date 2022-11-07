@@ -1,4 +1,4 @@
-import { recom_prod } from "../data/recom_prod.js";
+import { recom_prod } from "../data/fake/recom_prod.js";
 console.log(recom_prod)
 
 // use swiper
