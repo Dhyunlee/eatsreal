@@ -3,6 +3,7 @@ body {
     width: 100%;
     min-width: 500px;
     font-size: 16px;
+    line-height: 1.4;
     color: #333;
 }
 
@@ -30,21 +31,37 @@ a {
 /* header */
 
 /* header 공통 스타일 */
+.container {
+    min-width: 1240px;
+    margin: 0 auto;
+}
+
 .fs {
     font-size: 11px;
     color: #212121b3;
 }
 
+/* main menu */
+/* 공통 스타일 */
 .menu-list {
     display: flex;
+    justify-content: center;
 }
 
-/* header 스타일 */
+.menu-list>li>a {
+    padding: 30px 0;
+}
+
+.pb-20 {
+    padding-bottom: 20px;
+}
+
+/* menu-list */
 header .sec-wrap {
-    padding: 20px 40px 16px 30px;
+    padding: 20px 40px 20px 30px;
     border: 1px solid #f2f2f2;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .sec .menu-list li {
@@ -76,23 +93,76 @@ header .sec-banner {
     width: inherit;
 }
 
+/* gnb menu */
+.src-gnb {
+    position: relative;
+}
 
-.src-gnb .menu-list li {
+.src-gnb>.menu-list>li {
     padding: 0 10px;
 }
 
 .src-gnb .menu-list__container {
     width: 100%;
+    display: flex;
     justify-content: center;
 }
 
+.menu-list__container li a {
+    padding: 12px 15px;
+}
+
+.menu-list:hover .sub-menu {
+    display: block;
+}
+
+/* submenu */
+.src-gnb .sub-menu {
+    display: none;
+    position: absolute;
+    padding: .4rem 0;
+    top: 52px;
+    left: 0;
+    width: 100%;
+    height: 270px;
+    background-color: #555;
+    z-index: 2;
+}
+
+.src-gnb .sub-menu__container {
+    width: 75%;
+    margin: 25px auto;
+    display: flex;
+    justify-content: space-around;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.src-gnb .sub-menu__container>li>a {
+    font-size: 15px;
+    color: #fff;
+    font-weight: 700;
+}
+
+.sub_deep-menu li {
+    padding: 0;
+}
+.sub_deep-menu>li>a {
+    font-size: 14px;
+    line-height: 1.8;
+    font-weight: 600;
+    color: #9b9b9b;
+}
+
+.sub_deep-menu>li>a:hover {
+    color: #d1d1d1;
+}
 
 /* main */
 
 /* custom-swiper style */
 .nav-btn {
     position: absolute;
-    background: transparent;
+    background-color: transparent;
     width: 30px;
     height: 30px;
     border: 1px solid;
@@ -106,7 +176,7 @@ header .sec-banner {
 }
 
 .main__inner {
-    margin-top: 30px;
+    padding-top: 30px;
 }
 
 /* main-banner */
@@ -121,6 +191,9 @@ header .sec-banner {
     height: 400px;
 }
 
+.main-banner .carousel-wrap .swiper-slide {
+    width: 100%;
+}
 
 .main-banner .carousel-wrap .slide01 {
     background: url('../img/bn01.jpg') no-repeat center center;
@@ -175,28 +248,30 @@ header .sec-banner {
     width: 12px !important;
     height: 12px !important;
     left: 0;
-    background: transparent !important;
+    background-color: transparent !important;
     border: 1px solid #000 !important;
 }
 
 .main-banner .swiper-pagination-bullet-active {
-    background: #000 !important;
+    background-color: #000 !important;
 }
 
 
 /* main-sec common */
 .main-sec {
-    width: 1120px;
+    /* width: 1221px; */
     margin: 0 auto;
 }
 
 .main-sec .sec_wrap {
-    padding: 50px 0 30px;
+    width: 65%;
+    padding-right: 7px;
+    margin: 0 auto;
 }
 
 /* sec01 */
 .sec01 .prod-title {
-    margin: 15px 0 20px;
+    margin: 45px 0 20px;
 }
 
 .prod-title strong {
@@ -208,7 +283,7 @@ header .sec-banner {
 /* img cards */
 .sec01 .prod-cards {
     display: flex;
-    justify-content: center;
+    flex-wrap: wrap;
     gap: 16px;
 }
 
@@ -220,8 +295,8 @@ header .sec-banner {
 .prod-item .p_image-wap {
     position: relative;
     width: 100%;
-    padding: 10px;
     height: 270px;
+    padding: 10px;
 }
 
 .p_image-wap .p_image {
@@ -230,14 +305,41 @@ header .sec-banner {
     top: 0;
 }
 
+.p_image-wap .p_image-f {
+    z-index: 1;
+}
+
+.p_image-wap .p_image-hv {
+    z-index: 0;
+}
+
+.p_image-wap:hover .p_image-hv {
+    z-index: 1;
+    animation: findIn 1s;
+
+}
+
+@keyframes findIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+
+    }
+}
+
+
 .p_image-wap img {
     width: 100%;
     height: 100%;
 }
 
 .prod-info {
+    margin-top: 30px;
     padding: 15px 0;
-    background: #fdfdfd;
+    background-color: #fdfdfd;
     font-size: 14px;
 }
 
@@ -269,6 +371,7 @@ header .sec-banner {
 .sale {
     color: #fff;
     background-color: #fe5356;
+    border: none;
 }
 
 .con {
