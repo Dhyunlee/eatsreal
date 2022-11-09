@@ -50,6 +50,12 @@ a {
 
 .menu-list>li>a {
     padding: 30px 0;
+    transition: color 0.3s ease-in-out;
+}
+
+.menu-list li a:hover,
+.sec_search span:hover {
+    color: #d1d1d1;
 }
 
 .pb-20 {
@@ -76,6 +82,11 @@ header .sec-wrap {
     position: relative;
     top: -1px;
     left: 10px;
+}
+
+.sec_search>span {
+    cursor: pointer;
+    transition: color 0.3s ease-in-out;
 }
 
 header .sec-banner {
@@ -114,11 +125,20 @@ header .sec-banner {
 
 .menu-list:hover .sub-menu {
     display: block;
+    /* animation: menuAni .3s ease-in-out; */
+    transform: translateY(0);
+    transition: all 2s;
 }
+
+/* @keyframes menuAni {
+    0%   {height: 0px;}
+    100% {height: 270px;}
+} */
 
 /* submenu */
 .src-gnb .sub-menu {
     display: none;
+    transform: translateY(-270px);
     position: absolute;
     padding: .4rem 0;
     top: 52px;
@@ -127,6 +147,9 @@ header .sec-banner {
     height: 270px;
     background-color: #555;
     z-index: 2;
+
+    transform: translateY(0%);
+    transition: transform 0.5s ease;
 }
 
 .src-gnb .sub-menu__container {
@@ -146,11 +169,13 @@ header .sec-banner {
 .sub_deep-menu li {
     padding: 0;
 }
+
 .sub_deep-menu>li>a {
     font-size: 14px;
     line-height: 1.8;
     font-weight: 600;
     color: #9b9b9b;
+    transition: color 0.3s ease-in-out;
 }
 
 .sub_deep-menu>li>a:hover {
@@ -260,17 +285,17 @@ header .sec-banner {
 /* main-sec common */
 .main-sec {
     /* width: 1221px; */
-    margin: 0 auto;
+    margin: 100px auto;
 }
 
-.main-sec .sec_wrap {
+.main-sec .cards_wrap {
     width: 65%;
     padding-right: 7px;
     margin: 0 auto;
 }
 
-/* sec01 */
-.sec01 .prod-title {
+/* cards */
+.cards_wrap .prod-title {
     margin: 45px 0 20px;
 }
 
@@ -281,7 +306,7 @@ header .sec-banner {
 }
 
 /* img cards */
-.sec01 .prod-cards {
+.cards_wrap .prod-cards {
     display: flex;
     flex-wrap: wrap;
     gap: 16px;
@@ -377,4 +402,69 @@ header .sec-banner {
 .con {
     color: #333;
     background-color: #fff;
+}
+
+/* banner */
+.bn_mt30 {
+    margin: 30 0;
+}
+
+.banner-inner {
+    background-color: lightcoral;
+    width: 100%;
+    height: 276px;
+    position: relative;
+    color: #f3f0f0;
+}
+.banner-bg {
+    width: 100%;
+    height: 100%;
+    background: url('../img/main_banner.jpg') no-repeat;
+    background-size: cover;
+}
+.banner-cnt {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.banner-cnt .tit {
+    margin: 23px 0;
+    font-weight: 700;
+    text-decoration: underline;
+}
+.banner-cnt .desc {
+    margin: 20px 0;
+    line-height: 2;
+    font-weight: 700;
+}
+.link-btn {
+    margin: 13px 0;
+    display: inline-block;
+    width: 120px;
+    height: 42px;
+    background-color: #fff;
+    cursor: pointer;
+    color: #171717;
+    text-align: center;
+    line-height: 42px;
+}
+
+.link-btn:hover {
+    opacity: 0.8;
+    font-weight: 600;
+}
+.link-icon {
+    display: inline-block;
+    background: url(../img/b_arrow.png) no-repeat center;
+    height: 10px;
+    width: 24px;
+    background-size: contain;
+}
+
+/* cards(슬라이드가 포함된) */
+.slide_wrap {
+    
 }
