@@ -1,6 +1,6 @@
-import {recom_prod} from '../data/fake/recom_prod.js';
+import { recom_prod } from "../data/fake/recom_prod.js";
 
-// Constant productItem String  
+// Constant productItem String
 `<div class="prod-item">
 <div class="p_image-wap">
 <div class="p_image p_image-f">
@@ -27,14 +27,12 @@ import {recom_prod} from '../data/fake/recom_prod.js';
 
 </div>`;
 
-// Render productItem  
-const renderProdItem = (data) => {
-  
-}
+// Render productItem
+const renderProdItem = (data) => {};
 
-// Render productList 
-const renderProdList = (titName = '상품전체 제목') => {
-    const title = `<div class="prod-title">
+// Render productList
+const renderProdList = (titName = "상품전체 제목") => {
+  const title = `<div class="prod-title">
        <strong>${titName}</strong>
-    </div>`
-}
+    </div>`;
+};

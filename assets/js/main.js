@@ -14,7 +14,7 @@ new Swiper(".swiper-container", {
   },
   navigation: {
     nextEl: '.swiper-button-next',
-    prevEl: '.swiper-button-prev',
+    prevEl: '.swiper-button-prev ',
   },
   spaceBetween: 0, // 이미지 사이  공백 없애기(= mergin 없앰) 
   // 무한 슬라이드
