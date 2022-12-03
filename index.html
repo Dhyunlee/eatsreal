@@ -20,43 +20,43 @@
 		<div class="container">
 			<!-- header -->
 			<header>
-				<div class="sec-wrap">
-					<nav class="sec">
-						<ul class="menu-list">
-							<li><a href="" class="fs">Instargram</a></li>
-							<li><a href="" class="fs">Facebook</a></li>
-							<li><a href="" class="fs">Blog</a></li>
+				<div class="top-navbar">
+					<nav class="social-menu">
+						<ul class="social-menu_inner">
+							<li><a href="" class="fs fn-hv">Instargram</a></li>
+							<li><a href="" class="fs fn-hv">Facebook</a></li>
+							<li><a href="" class="fs fn-hv">Blog</a></li>
 						</ul>
 					</nav>
-					<div class="sec">
-						<p class="fs">회원가입시 적립금 2000원 지급!</p>
+					<div class="navbar_banner">
+						<p class="fs fn-hv">회원가입시 적립금 2000원 지급!</p>
 					</div>
-					<div class="sec menu-list">
-						<ul class="menu-list">
-							<li><a href="" class="fs">로그인</a></li>
-							<li><a href="" class="fs">Register</a></li>
-							<li><a href="" class="fs">장바구니</a></li>
-							<li><a href="" class="fs">마이페이지</a></li>
+					<nav class="user-menu">
+						<ul class="user-menu_inner">
+							<li><a href="" class="fs fn-hv">로그인</a></li>
+							<li><a href="" class="fs fn-hv">Register</a></li>
+							<li><a href="" class="fs fn-hv">장바구니</a></li>
+							<li><a href="" class="fs fn-hv">마이페이지</a></li>
 						</ul>
-						<div class="sec_search">
-							<span class="fs">Search</span>
+						<div class="search">
+							<span class="fs fn-hv">Search</span>
 						</div>
-					</div>
+					</nav>
 				</div>
 				<div class="sec-banner">
 					<div class="img-wrap">
 						<img src="./assets/img/bannerimg.png" alt="banner-img">
 					</div>
 				</div>
-				<div class="src-gnb">
+				<nav class="gnb-menu">
 					<ul class="menu-list">
-						<li><a href="javascript:void(0)">인기상품</a></li>
-						<li><a href="javascript:void(0)">정기배송</a></li>
-						<li><a href="javascript:void(0)">건강식단</a></li>
-						<li><a href="javascript:void(0)">건강간식</a></li>
-						<li><a href="javascript:void(0)">헬스케어</a></li>
-						<li><a href="javascript:void(0)">홀딩서비스</a></li>
-						<li><a href="javascript:void(0)">Review</a></li>
+						<li><a class="fn-hv" href="javascript:void(0)">인기상품</a></li>
+						<li><a class="fn-hv" href="javascript:void(0)">정기배송</a></li>
+						<li><a class="fn-hv" href="javascript:void(0)">건강식단</a></li>
+						<li><a class="fn-hv" href="javascript:void(0)">건강간식</a></li>
+						<li><a class="fn-hv" href="javascript:void(0)">헬스케어</a></li>
+						<li><a class="fn-hv" href="javascript:void(0)">홀딩서비스</a></li>
+						<li><a class="fn-hv" href="javascript:void(0)">Review</a></li>
 						<div class="sub-menu">
 							<ul class="sub-menu__container">
 								<li><a href="javascript:void(0)">인기상품</a></li>
@@ -106,7 +106,7 @@
 							</ul>
 						</div>
 					</ul>
-				</div>
+				</nav>
 			</header>
 			<!-- main -->
 			<main>
@@ -131,13 +131,11 @@
 								<div class="swiper-pagination"></div>
 
 								<!-- If we need navigation buttons -->
-								<div class="nav-btn prev-btn">
-									<div class="nav-btn__btn-wrap"></div>
-									<button></button>
+								<div class="btn-controls swiper-button-prev">
+									<div class="slide-btn prev_btn"><span>&lsaquo;</span></div>
 								</div>
-								<div class="nav-btn next-btn">
-									<div class="nav-btn__btn-wrap"></div>
-									<button></button>
+								<div class="btn-controls swiper-button-next">
+									<div class="slide-btn next_btn"> <span>&rsaquo;</span></div>
 								</div>
 
 								<!-- If we need scrollbar -->
@@ -344,7 +342,7 @@
 									</div>
 								</div>
 
-						
+
 
 							</div>
 						</div>
@@ -565,39 +563,36 @@
 						</div>
 					</section>
 					<section class="main-sec sec03 slide_wrap sec-slide01">
-						<div class="sec_wrap">
-							<div class="prod-title"></div>
-							<div class="prod-cards"></div>
-						</div>
-					</section>
-					<section class="main-sec sec03 slide_wrap sec-slide01">
-						<div class="sec_wrap">
-							<div class="prod-title"></div>
-							<div class="prod-cards"></div>
-						</div>
-					</section>
-					<section class="main-sec sec03 slide_wrap sec-slide01">
-						<div class="sec_wrap">
-							<div class="prod-title"></div>
-							<div class="prod-cards"></div>
-						</div>
-					</section>
-					<section class="main-sec sec03 slide_wrap sec-slide01">
-						<div class="sec_wrap">
-							<div class="prod-title"></div>
-							<div class="prod-cards"></div>
-						</div>
-					</section>
-					<section class="main-sec sec03 slide_wrap sec-slide01">
-						<div class="sec_wrap">
-							<div class="prod-title"></div>
-							<div class="prod-cards"></div>
-						</div>
-					</section>
-					<section class="main-sec sec03 slide_wrap sec-slide01">
-						<div class="sec_wrap">
-							<div class="prod-title"></div>
-							<div class="prod-cards"></div>
+						<div class="cards_wrap">
+							<div class="prod-title">
+								<strong>정기배송 상품</strong>
+							</div>
+							<div class="prod-cards">
+								<div class="prod-item">
+									<div class="p_image-wap">
+										<div class="p_image p_image-f">
+											<img src="./assets/img/demo_img1_01.jpg" alt="product-img">
+										</div>
+										<div class="p_image p_image-hv">
+											<img src="./assets/img/demo_img1_02.jpg" alt="product-img">
+										</div>
+									</div>
+									<div class="prod-info">
+										<div class="prod-info--tit">
+											<strong>
+												[5종 7팩] 맛있는 7일 다이어트 식단도시락 300kcal
+											</strong>
+										</div>
+										<div class="prod-info--price">
+											<span class="price">44,800원</span>
+											<span class="p_sale">60,500원</span>
+										</div>
+										<div class="prod-info--icon">
+											<button class="icon-style sale">SALE</button>
+										</div>
+									</div>
+								</div>
+							</div>
 						</div>
 					</section>
 				</div>
@@ -606,7 +601,7 @@
 			<footer>
 				<div class="footer-inner">
 					<ul>
-						
+
 					</ul>
 				</div>
 			</footer>
