@@ -16,42 +16,17 @@ export const recom_prod = [
         image_url: "https://cdn.imweb.me/thumbnail/20220525/7bf7239369745.jpg",
         sub_image_url:
           "https://cdn.imweb.me/thumbnail/20220525/7bf7239369745.jpg",
-        tags: [
-          {
-            sale: "SALE",
-          },
-          {
-            best: "",
-          },
-          {
-            hot: "",
-          },
-          {
-            md: "",
-          },
-        ],
+        tags: ["SALE"],
       },
       {
         no: 2,
         name: "샐러드 정기배송 매주 5개",
         price: "123,400원",
         s_price: "144,000원",
-        image_url: "",
-        sub_image_url: "",
-        tags: [
-          {
-            sale: "SALE",
-          },
-          {
-            best: "",
-          },
-          {
-            hot: "",
-          },
-          {
-            md: "",
-          },
-        ],
+        image_url: "https://cdn.imweb.me/thumbnail/20190521/5ce3f3eec977a.jpg",
+        sub_image_url:
+          "https://cdn.imweb.me/thumbnail/20191107/166b772ef77b1.jpg",
+        tags: ["SALE"],
       },
       {
         no: 3,
@@ -62,20 +37,7 @@ export const recom_prod = [
         image_alt: "기획전 이미지",
         sub_image_url:
           "https://cdn.imweb.me/thumbnail/20191107/244798a22877c.jpg",
-        tag: [
-          {
-            sale: "SALE",
-          },
-          {
-            best: "BEST",
-          },
-          {
-            hot: "",
-          },
-          {
-            md: "",
-          },
-        ],
+        tags: ["SALE", "BEST"],
       },
       {
         no: 4,
@@ -86,20 +48,7 @@ export const recom_prod = [
         image_alt: "기획전 이미지",
         sub_image_url:
           "https://cdn.imweb.me/thumbnail/20211103/afc461fbab2ca.jpg",
-        tag: [
-          {
-            sale: "SALE",
-          },
-          {
-            best: "BEST",
-          },
-          {
-            hot: "HOT",
-          },
-          {
-            md: "",
-          },
-        ],
+        tags: ["SALE", "BEST", "HOT"],
       },
       {
         no: 5,
@@ -110,20 +59,7 @@ export const recom_prod = [
         image_alt: "기획전 이미지",
         sub_image_url:
           "https://cdn.imweb.me/thumbnail/20201026/0aad5e0a059ea.jpg",
-        tag: [
-          {
-            sale: "SALE",
-          },
-          {
-            best: "",
-          },
-          {
-            hot: "",
-          },
-          {
-            md: "",
-          },
-        ],
+        tags: ["SALE"],
       },
       {
         no: 6,
@@ -134,20 +70,7 @@ export const recom_prod = [
         image_alt: "기획전 이미지",
         sub_image_url:
           "https://cdn.imweb.me/thumbnail/20200309/79f9a755a7d19.jpg",
-        tag: [
-          {
-            sale: "SALE",
-          },
-          {
-            best: "BEST",
-          },
-          {
-            hot: "HOT",
-          },
-          {
-            md: "",
-          },
-        ],
+        tags: ["SALE", "BEST", "HOT"],
       },
       {
         no: 7,
@@ -158,20 +81,7 @@ export const recom_prod = [
         image_alt: "기획전 이미지",
         sub_image_url:
           "https://cdn.imweb.me/thumbnail/20211103/27c0710a830ec.jpg",
-        tag: [
-          {
-            sale: "SALE",
-          },
-          {
-            best: "BEST",
-          },
-          {
-            hot: "HOT",
-          },
-          {
-            md: "",
-          },
-        ],
+        tags: ["SALE", "BEST", "HOT"],
       },
       {
         no: 8,
@@ -182,20 +92,7 @@ export const recom_prod = [
         image_alt: "기획전 이미지",
         sub_image_url:
           "https://cdn.imweb.me/thumbnail/20200309/7c5d32202362b.jpg",
-        tag: [
-          {
-            sale: "SALE",
-          },
-          {
-            best: "",
-          },
-          {
-            hot: "",
-          },
-          {
-            md: "MD",
-          },
-        ],
+        tags: ["SALE", "MD"],
       },
     ],
   },
@@ -212,20 +109,7 @@ export const recom_prod = [
         image_alt: "기획전 이미지",
         sub_image_url:
           "https://cdn.imweb.me/thumbnail/20220525/fa3a41dc28144.jpg",
-        tag: [
-          {
-            sale: "SALE",
-          },
-          {
-            best: "",
-          },
-          {
-            hot: "",
-          },
-          {
-            md: "",
-          },
-        ],
+        tags: ["SALE"],
       },
       {
         no: 2,
@@ -236,20 +120,7 @@ export const recom_prod = [
         image_alt: "기획전 이미지",
         sub_image_url:
           "https://cdn.imweb.me/thumbnail/20211103/afc461fbab2ca.jpg",
-        tag: [
-          {
-            sale: "SALE",
-          },
-          {
-            best: "BEST",
-          },
-          {
-            hot: "HOT",
-          },
-          {
-            md: "",
-          },
-        ],
+        tags: ["SALE", "BEST", "HOT"],
       },
       {
         no: 3,
@@ -260,20 +131,7 @@ export const recom_prod = [
         image_alt: "기획전 이미지",
         sub_image_url:
           "https://cdn.imweb.me/thumbnail/20201026/0aad5e0a059ea.jpg",
-        tag: [
-          {
-            sale: "SALE",
-          },
-          {
-            best: "",
-          },
-          {
-            hot: "",
-          },
-          {
-            md: "",
-          },
-        ],
+        tags: ["SALE"],
       },
       {
         no: 4,
@@ -284,20 +142,7 @@ export const recom_prod = [
         image_alt: "기획전 이미지",
         sub_image_url:
           "https://cdn.imweb.me/thumbnail/20200309/79f9a755a7d19.jpg",
-        tag: [
-          {
-            sale: "SALE",
-          },
-          {
-            best: "BEST",
-          },
-          {
-            hot: "HOT",
-          },
-          {
-            md: "",
-          },
-        ],
+        tags: ["SALE", "BEST", "HOT"],
       },
       {
         no: 5,
@@ -308,20 +153,7 @@ export const recom_prod = [
         image_alt: "기획전 이미지",
         sub_image_url:
           "https://cdn.imweb.me/thumbnail/20211103/27c0710a830ec.jpg",
-        tag: [
-          {
-            sale: "SALE",
-          },
-          {
-            best: "BEST",
-          },
-          {
-            hot: "HOT",
-          },
-          {
-            md: "",
-          },
-        ],
+        tags: ["SALE", "BEST", "HOT"],
       },
       {
         no: 6,
@@ -332,20 +164,7 @@ export const recom_prod = [
         image_alt: "기획전 이미지",
         sub_image_url:
           "https://cdn.imweb.me/thumbnail/20200309/7c5d32202362b.jpg",
-        tag: [
-          {
-            sale: "SALE",
-          },
-          {
-            best: "",
-          },
-          {
-            hot: "",
-          },
-          {
-            md: "MD",
-          },
-        ],
+        tags: ["SALE", "MD"],
       },
       {
         no: 7,
@@ -356,20 +175,7 @@ export const recom_prod = [
         image_alt: "기획전 이미지",
         sub_image_url:
           "https://cdn.imweb.me/thumbnail/20200917/7a358793dd00c.jpg",
-        tag: [
-          {
-            sale: "SALE",
-          },
-          {
-            best: "",
-          },
-          {
-            hot: "",
-          },
-          {
-            md: "",
-          },
-        ],
+        tags: ["SALE"],
       },
       {
         no: 8,
@@ -380,20 +186,7 @@ export const recom_prod = [
         image_alt: "기획전 이미지",
         sub_image_url:
           "https://cdn.imweb.me/thumbnail/20200616/55121a7ceec06.jpg",
-        tag: [
-          {
-            sale: "SALE",
-          },
-          {
-            best: "",
-          },
-          {
-            hot: "",
-          },
-          {
-            md: "",
-          },
-        ],
+        tags: ["SALE"],
       },
       {
         no: 9,
@@ -404,20 +197,7 @@ export const recom_prod = [
         image_alt: "기획전 이미지",
         sub_image_url:
           "https://cdn.imweb.me/thumbnail/20201125/13229fbac6183.jpg",
-        tag: [
-          {
-            sale: "SALE",
-          },
-          {
-            best: "",
-          },
-          {
-            hot: "",
-          },
-          {
-            md: "",
-          },
-        ],
+        tags: ["SALE"],
       },
       {
         no: 10,
@@ -428,20 +208,7 @@ export const recom_prod = [
         image_alt: "기획전 이미지",
         sub_image_url:
           "https://cdn.imweb.me/thumbnail/20201125/3adf59a9b5dbf.jpg",
-        tag: [
-          {
-            sale: "SALE",
-          },
-          {
-            best: "",
-          },
-          {
-            hot: "",
-          },
-          {
-            md: "",
-          },
-        ],
+        tags: ["SALE"],
       },
       {
         no: 11,
@@ -452,20 +219,7 @@ export const recom_prod = [
         image_alt: "기획전 이미지",
         sub_image_url:
           "https://cdn.imweb.me/thumbnail/20201125/966d784c05042.jpg",
-        tag: [
-          {
-            sale: "SALE",
-          },
-          {
-            best: "",
-          },
-          {
-            hot: "",
-          },
-          {
-            md: "",
-          },
-        ],
+        tags: ["SALE"],
       },
       {
         no: 12,
@@ -476,20 +230,7 @@ export const recom_prod = [
         image_alt: "기획전 이미지",
         sub_image_url:
           "https://cdn.imweb.me/thumbnail/20201125/488e5aa53cf23.jpg",
-        tag: [
-          {
-            sale: "SALE",
-          },
-          {
-            best: "",
-          },
-          {
-            hot: "",
-          },
-          {
-            md: "",
-          },
-        ],
+        tags: ["SALE"],
       },
     ],
   },
@@ -506,20 +247,7 @@ export const recom_prod = [
         image_alt: "기획전 이미지",
         sub_image_url:
           "https://cdn.imweb.me/thumbnail/20190721/dd46a2a51c96f.jpg",
-        tag: [
-          {
-            sale: "SALE",
-          },
-          {
-            best: "BEST",
-          },
-          {
-            hot: "",
-          },
-          {
-            md: "",
-          },
-        ],
+        tags: ["SALE", "BEST"],
       },
       {
         no: 2,
@@ -530,20 +258,7 @@ export const recom_prod = [
         image_alt: "기획전 이미지",
         sub_image_url:
           "https://cdn.imweb.me/thumbnail/20190520/5ce2ababde535.jpg",
-        tag: [
-          {
-            sale: "SALE",
-          },
-          {
-            best: "BEST",
-          },
-          {
-            hot: "",
-          },
-          {
-            md: "",
-          },
-        ],
+        tags: ["SALE", "BEST"],
       },
       {
         no: 3,
@@ -554,20 +269,7 @@ export const recom_prod = [
         image_alt: "기획전 이미지",
         sub_image_url:
           "https://cdn.imweb.me/thumbnail/20190721/dd46a2a51c96f.jpg",
-        tag: [
-          {
-            sale: "SALE",
-          },
-          {
-            best: "BEST",
-          },
-          {
-            hot: "",
-          },
-          {
-            md: "",
-          },
-        ],
+        tags: ["SALE", "BEST"],
       },
     ],
   },
@@ -584,20 +286,7 @@ export const recom_prod = [
         image_alt: "기획전 이미지",
         sub_image_url:
           "https://cdn.imweb.me/thumbnail/20190721/2f56adb484997.jpg",
-        tag: [
-          {
-            sale: "SALE",
-          },
-          {
-            best: "BEST",
-          },
-          {
-            hot: "",
-          },
-          {
-            md: "",
-          },
-        ],
+        tags: ["SALE", "BEST"],
       },
       {
         no: 2,
@@ -608,20 +297,7 @@ export const recom_prod = [
         image_alt: "기획전 이미지",
         sub_image_url:
           "https://cdn.imweb.me/thumbnail/20191023/f48d7dbf289d5.jpg",
-        tag: [
-          {
-            sale: "SALE",
-          },
-          {
-            best: "BEST",
-          },
-          {
-            hot: "",
-          },
-          {
-            md: "",
-          },
-        ],
+        tags: ["SALE", "BEST"],
       },
       {
         no: 3,
@@ -631,20 +307,7 @@ export const recom_prod = [
         image_url: "https://cdn.imweb.me/thumbnail/20190521/5ce3f3ef1c5b8.jpg",
         image_alt: "기획전 이미지",
         sub_image_url: "",
-        tag: [
-          {
-            sale: "SALE",
-          },
-          {
-            best: "BEST",
-          },
-          {
-            hot: "",
-          },
-          {
-            md: "",
-          },
-        ],
+        tags: ["SALE", "BEST"],
       },
       {
         no: 4,
@@ -654,20 +317,7 @@ export const recom_prod = [
         image_url: "https://cdn.imweb.me/thumbnail/20190521/5ce3f3ef60345.jpg",
         image_alt: "기획전 이미지",
         sub_image_url: "",
-        tag: [
-          {
-            sale: "SALE",
-          },
-          {
-            best: "BEST",
-          },
-          {
-            hot: "",
-          },
-          {
-            md: "",
-          },
-        ],
+        tags: ["SALE", "BEST"],
       },
       {
         no: 5,
@@ -677,20 +327,7 @@ export const recom_prod = [
         image_url: "https://cdn.imweb.me/thumbnail/20190521/5ce3f3efa2cad.jpg",
         image_alt: "기획전 이미지",
         sub_image_url: "",
-        tag: [
-          {
-            sale: "SALE",
-          },
-          {
-            best: "BEST",
-          },
-          {
-            hot: "",
-          },
-          {
-            md: "",
-          },
-        ],
+        tags: ["SALE", "BEST"],
       },
       {
         no: 6,
@@ -700,20 +337,7 @@ export const recom_prod = [
         image_url: "https://cdn.imweb.me/thumbnail/20190521/5ce3f3f0297e0.jpg",
         image_alt: "기획전 이미지",
         sub_image_url: "",
-        tag: [
-          {
-            sale: "SALE",
-          },
-          {
-            best: "BEST",
-          },
-          {
-            hot: "",
-          },
-          {
-            md: "",
-          },
-        ],
+        tags: ["SALE", "BEST"],
       },
       {
         no: 7,
@@ -723,20 +347,7 @@ export const recom_prod = [
         image_url: "https://cdn.imweb.me/thumbnail/20190521/5ce3f3f0297e0.jpg",
         image_alt: "기획전 이미지",
         sub_image_url: "",
-        tag: [
-          {
-            sale: "SALE",
-          },
-          {
-            best: "BEST",
-          },
-          {
-            hot: "",
-          },
-          {
-            md: "",
-          },
-        ],
+        tags: ["SALE", "BEST"],
       },
       {
         no: 8,
@@ -746,20 +357,7 @@ export const recom_prod = [
         image_url: "https://cdn.imweb.me/thumbnail/20190521/5ce3f3f06a2b1.jpg",
         image_alt: "기획전 이미지",
         sub_image_url: "",
-        tag: [
-          {
-            sale: "SALE",
-          },
-          {
-            best: "BEST",
-          },
-          {
-            hot: "",
-          },
-          {
-            md: "",
-          },
-        ],
+        tags: ["SALE", "BEST"],
       },
     ],
   },
@@ -775,20 +373,7 @@ export const recom_prod = [
         image_alt: "기획전 이미지",
         sub_image_url:
           "https://cdn.imweb.me/thumbnail/20200309/cee0c244b850f.jpg",
-        tag: [
-          {
-            sale: "SALE",
-          },
-          {
-            best: "BEST",
-          },
-          {
-            hot: "HOT",
-          },
-          {
-            md: "",
-          },
-        ],
+        tags: ["SALE", "BEST", "HOT"],
       },
       {
         title: "미주라 통밀파스타 3종 특가",
@@ -798,20 +383,7 @@ export const recom_prod = [
         image_alt: "기획전 이미지",
         sub_image_url:
           "https://cdn.imweb.me/thumbnail/20200309/1f43ffe340ba2.jpg",
-        tag: [
-          {
-            sale: "SALE",
-          },
-          {
-            best: "",
-          },
-          {
-            hot: "",
-          },
-          {
-            md: "MD",
-          },
-        ],
+        tags: ["SALE", "MD"],
       },
     ],
   },
@@ -827,20 +399,7 @@ export const recom_prod = [
         image_alt: "기획전 이미지",
         sub_image_url:
           "https://cdn.imweb.me/thumbnail/20201125/755bc7e4c4c16.jpg",
-        tag: [
-          {
-            sale: "SALE",
-          },
-          {
-            best: "",
-          },
-          {
-            hot: "",
-          },
-          {
-            md: "",
-          },
-        ],
+        tags: ["SALE"],
       },
       {
         title: "냉동고구마 1kg",
@@ -850,20 +409,7 @@ export const recom_prod = [
         image_alt: "기획전 이미지",
         sub_image_url:
           "https://cdn.imweb.me/thumbnail/20201125/b210c7231582b.jpg",
-        tag: [
-          {
-            sale: "SALE",
-          },
-          {
-            best: "",
-          },
-          {
-            hot: "",
-          },
-          {
-            md: "",
-          },
-        ],
+        tags: ["SALE"],
       },
       {
         title: "꿀고구마말랭이 10봉",
@@ -873,20 +419,7 @@ export const recom_prod = [
         image_alt: "기획전 이미지",
         sub_image_url:
           "https://cdn.imweb.me/thumbnail/20201125/5da10b46f9f09.jpg",
-        tag: [
-          {
-            sale: "SALE",
-          },
-          {
-            best: "",
-          },
-          {
-            hot: "",
-          },
-          {
-            md: "",
-          },
-        ],
+        tags: ["SALE"],
       },
       {
         title: "군고구마말랭이 10봉",
@@ -896,20 +429,7 @@ export const recom_prod = [
         image_alt: "기획전 이미지",
         sub_image_url:
           "https://cdn.imweb.me/thumbnail/20201125/3b7e4c0323ae4.jpg",
-        tag: [
-          {
-            sale: "SALE",
-          },
-          {
-            best: "",
-          },
-          {
-            hot: "",
-          },
-          {
-            md: "",
-          },
-        ],
+        tags: ["SALE"],
       },
       {
         title: "한입 쏙 고구마 고백 (10팩~)",
@@ -919,20 +439,7 @@ export const recom_prod = [
         image_alt: "기획전 이미지",
         sub_image_url:
           "https://cdn.imweb.me/thumbnail/20200213/77f771d213dcb.jpg",
-        tag: [
-          {
-            sale: "SALE",
-          },
-          {
-            best: "",
-          },
-          {
-            hot: "",
-          },
-          {
-            md: "MD",
-          },
-        ],
+        tags: ["SALE", "MD"],
       },
       {
         title: "청도 감 말랭이 5팩",
@@ -940,20 +447,7 @@ export const recom_prod = [
         s_price: "15,000원",
         image_url: "https://cdn.imweb.me/thumbnail/20191107/e8310b4a45dbf.jpg",
         image_alt: "기획전 이미지",
-        tag: [
-          {
-            sale: "SALE",
-          },
-          {
-            best: "",
-          },
-          {
-            hot: "",
-          },
-          {
-            md: "",
-          },
-        ],
+        tags: ["SALE"],
       },
       {
         title: "꿀고구마 말랭이 5팩",
@@ -961,20 +455,7 @@ export const recom_prod = [
         s_price: "14,000원",
         image_url: "https://cdn.imweb.me/thumbnail/20191107/6fd138956fb42.jpg",
         image_alt: "기획전 이미지",
-        tag: [
-          {
-            sale: "SALE",
-          },
-          {
-            best: "",
-          },
-          {
-            hot: "",
-          },
-          {
-            md: "",
-          },
-        ],
+        tags: ["SALE"],
       },
       {
         title: "리얼 아이스 구운 감자 (10팩~)",
@@ -984,20 +465,7 @@ export const recom_prod = [
         image_alt: "기획전 이미지",
         sub_image_url:
           "https://cdn.imweb.me/thumbnail/20191106/00e7cf3f1a1da.jpg",
-        tag: [
-          {
-            sale: "SALE",
-          },
-          {
-            best: "",
-          },
-          {
-            hot: "",
-          },
-          {
-            md: "MD",
-          },
-        ],
+        tags: ["SALE", "MD"],
       },
     ],
   },
@@ -1012,20 +480,7 @@ export const recom_prod = [
         image_url: "https://cdn.imweb.me/thumbnail/20200314/4110ddaecbcd0.jpg",
         image_alt: "기획전 이미지",
         sub_image_url: "",
-        tag: [
-          {
-            sale: "SALE",
-          },
-          {
-            best: "",
-          },
-          {
-            hot: "",
-          },
-          {
-            md: "",
-          },
-        ],
+        tags: ["SALE"],
       },
       {
         title: "굳닭 닭가슴살 스테이크 3종",
@@ -1035,20 +490,7 @@ export const recom_prod = [
         image_alt: "기획전 이미지",
         sub_image_url:
           "https://cdn.imweb.me/thumbnail/20200324/cd288ecdc7a87.jpg",
-        tag: [
-          {
-            sale: "SALE",
-          },
-          {
-            best: "",
-          },
-          {
-            hot: "",
-          },
-          {
-            md: "",
-          },
-        ],
+        tags: ["SALE"],
       },
       {
         title: "굳닭 닭가슴살 소시지바 5종",
@@ -1057,20 +499,7 @@ export const recom_prod = [
         image_url: "https://cdn.imweb.me/thumbnail/20200314/461af43dcf678.jpg",
         image_alt: "기획전 이미지",
         sub_image_url: "",
-        tag: [
-          {
-            sale: "SALE",
-          },
-          {
-            best: "",
-          },
-          {
-            hot: "",
-          },
-          {
-            md: "",
-          },
-        ],
+        tags: ["SALE"],
       },
       {
         title: "굳닭 닭가슴살 소시지 8종 모음",
@@ -1079,20 +508,7 @@ export const recom_prod = [
         image_url: "https://cdn.imweb.me/thumbnail/20200314/9e12b69e1bc67.jpg",
         image_alt: "기획전 이미지",
         sub_image_url: "",
-        tag: [
-          {
-            sale: "SALE",
-          },
-          {
-            best: "",
-          },
-          {
-            hot: "",
-          },
-          {
-            md: "MD",
-          },
-        ],
+        tags: ["SALE", "MD"],
       },
       {
         title: "굳닭 닭가슴살 3종 (스팀,훈제)",
@@ -1101,20 +517,7 @@ export const recom_prod = [
         image_url: "https://cdn.imweb.me/thumbnail/20200314/614d595578b04.jpg",
         image_alt: "기획전 이미지",
         sub_image_url: "",
-        tag: [
-          {
-            sale: "SALE",
-          },
-          {
-            best: "",
-          },
-          {
-            hot: "",
-          },
-          {
-            md: "",
-          },
-        ],
+        tags: ["SALE"],
       },
       {
         title: "굳닭 닭가슴살 곤약순대 200g",
@@ -1123,20 +526,7 @@ export const recom_prod = [
         image_url: "https://cdn.imweb.me/thumbnail/20200317/e82c789e95bbc.jpg",
         image_alt: "기획전 이미지",
         sub_image_url: "",
-        tag: [
-          {
-            sale: "SALE",
-          },
-          {
-            best: "",
-          },
-          {
-            hot: "",
-          },
-          {
-            md: "",
-          },
-        ],
+        tags: ["SALE"],
       },
       {
         title: "굳닭 촉촉수비드슬라이스 2종",
@@ -1144,20 +534,7 @@ export const recom_prod = [
         s_price: "23,500원",
         image_url: "https://cdn.imweb.me/thumbnail/20200314/93ec177766eca.jpg",
         image_alt: "기획전 이미지",
-        tag: [
-          {
-            sale: "SALE",
-          },
-          {
-            best: "",
-          },
-          {
-            hot: "",
-          },
-          {
-            md: "",
-          },
-        ],
+        tags: ["SALE"],
       },
     ],
   },
@@ -1171,20 +548,7 @@ export const recom_prod = [
         s_price: "15,500원",
         image_url: "https://cdn.imweb.me/thumbnail/20200423/824b1946de8d3.jpg",
         sub_image_url: "",
-        tag: [
-          {
-            sale: "SALE",
-          },
-          {
-            best: "",
-          },
-          {
-            hot: "",
-          },
-          {
-            md: "",
-          },
-        ],
+        tags: ["SALE"],
       },
       {
         title: "굳닭 촉촉한 반숙란",
@@ -1192,20 +556,7 @@ export const recom_prod = [
         s_price: "14,000원",
         image_url: "https://cdn.imweb.me/thumbnail/20200423/ca8e7578dfd2c.jpg",
         sub_image_url: "",
-        tag: [
-          {
-            sale: "SALE",
-          },
-          {
-            best: "",
-          },
-          {
-            hot: "",
-          },
-          {
-            md: "",
-          },
-        ],
+        tags: ["SALE"],
       },
       {
         title: "굳닭 한입에 쏙 메추리야",
@@ -1213,26 +564,13 @@ export const recom_prod = [
         s_price: "12,500원",
         image_url: "https://cdn.imweb.me/thumbnail/20200316/eb3e494980f45.jpg",
         sub_image_url: "",
-        tag: [
-          {
-            sale: "SALE",
-          },
-          {
-            best: "",
-          },
-          {
-            hot: "",
-          },
-          {
-            md: "",
-          },
-        ],
+        tags: ["SALE"],
       },
     ],
   },
-  {
-    id: 9,
-    title: "Delivery Service",
-    image_url: "https://cdn.imweb.me/thumbnail/20190630/3cd1623fb521c.jpg",
-  },
+  // {
+  //   id: 9,
+  //   title: "Delivery Service",
+  //   image_url: "https://cdn.imweb.me/thumbnail/20190630/3cd1623fb521c.jpg",
+  // },
 ];

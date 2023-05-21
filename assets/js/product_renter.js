@@ -1,38 +1,51 @@
 import { recom_prod } from "../data/fake/recom_prod.js";
 
-// Constant productItem String
-`<div class="prod-item">
-<div class="p_image-wap">
-<div class="p_image p_image-f">
-    <img src="./assets/img1_01.jpg" alt="product-img">
-</div>
-<div class="p_image p_image-hv">
-    <img src="./assets/img1_02.jpg" alt="product-img">
-</div>
-</div>
-<div class="prod-info">
-<div class="prod-info--tit">
-    <strong>
-        [5종 7팩] 맛있는 7일 다이어트 식단도시락 300kcal
-    </strong>
-</div>
-<div class="prod-info--price">
-    <span class="price">44,800원</span>
-    <span class="p_sale">60,500원</span>
-</div>
-<div class="prod-info--icon">
-    <button class="icon-style sale">SALE</button>
-</div>
-</div>  
+const cardItem = (data) => {
+  return `
+   <div class="prod-item">
+        <div class="p_image-wap">
+            <div class="p_image p_image-f">
+                <img src=${data.image_url}>
+            </div>
+            <div class="p_image p_image-hv">
+                <img src=${data.sub_image_url}>
+            </div>
+        </div>
+        <div class="prod-info">
+            <div class="prod-info--tit">
+                <strong>
+                    ${data.name}
+                </strong>
+            </div>
+            <div class="prod-info--price">
+                <span class="price">${data.price}</span>
+                <span class="p_sale">${data.s_price}</span>
+            </div>
+            <div class="prod-info--icon">
+            ${data.tags?.map((t) => `<button class="icon-style sale">${t}</button>`).toString().replaceAll(',', ' ')}
+            </div>
+        </div>
+    </div>
+   `;
+};
 
-</div>`;
+export const prod_render = () => {
+  const cards_wrapList = document.querySelectorAll(".cards_wrap");
+  Array.from(cards_wrapList).map((parentEl, idx) => {
+    // const index = idx+1;
+    const title = document.createElement("header");
+    const cards = document.createElement("div");
 
-// Render productItem
-const renderProdItem = (data) => {};
+    title.className = "prod-title";
+    cards.className = "prod-cards";
 
-// Render productList
-const renderProdList = (titName = "상품전체 제목") => {
-  const title = `<div class="prod-title">
-       <strong>${titName}</strong>
-    </div>`;
+    title.innerHTML = `<strong>${recom_prod[idx].title}</strong>`;
+    console.log({recom_prod: recom_prod[idx + 1]})
+    recom_prod[idx].data.map((item, idx) => {
+    cards.insertAdjacentHTML('afterbegin', cardItem(item));
+    });
+    
+    parentEl.appendChild(title);
+    parentEl.appendChild(cards);
+  });
 };

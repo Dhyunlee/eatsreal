@@ -1,5 +1,4 @@
-import {recom_prod} from '../data/fake/recom_prod.js';
-console.log(recom_prod)
+import { prod_render } from './product_renter.js';
 
 // use swiper
 new Swiper(".swiper-container", {
@@ -9,7 +8,7 @@ new Swiper(".swiper-container", {
     delay: 5000,
   },
   pagination: {
-    el: ".swiper-pagination",
+    el: ".sp",
     clickable: true
   },
   navigation: {
@@ -21,6 +20,9 @@ new Swiper(".swiper-container", {
   loop: true,
   loopAdditionalSlides: 1,
 });
+
+//상품 리스트 출력
+prod_render();
 
 
 // 더블 클릭 방지
