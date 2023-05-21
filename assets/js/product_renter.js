@@ -40,7 +40,6 @@ export const prod_render = () => {
     cards.className = "prod-cards";
 
     title.innerHTML = `<strong>${recom_prod[idx].title}</strong>`;
-    console.log({recom_prod: recom_prod[idx + 1]})
     recom_prod[idx].data.map((item, idx) => {
     cards.insertAdjacentHTML('afterbegin', cardItem(item));
     });
